@@ -1,8 +1,7 @@
 {
   "repo": {
     "name": "Test repo",
-    "description": "Description of repo",
-    "author": "Author of repo"
+    "description": "Description of repo"
   },
       
   "apps": [
