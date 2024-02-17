@@ -1,7 +1,7 @@
 {
   "repo": {
-    "name": "Test repo",
-    "description": "Description of repo"
+    "name": "Test repo for ETS2LA",
+    "description": "Description of that said repo that is being pulled from the server"
   },
       
   "apps": [
