@@ -22,6 +22,12 @@
       "description": "Description of App 3",
       "author": "Author of App 3",
       "path": "/plugins/app3"
+    },
+    {
+      "name": "Snake",
+      "description": "It's a snake",
+      "author": "Poggers",
+      "path": "/plugins/snake"
     }
   ]
 }
