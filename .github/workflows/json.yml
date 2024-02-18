@@ -23,9 +23,12 @@ jobs:
 
       - name: Extract Plugin Info and Update JSON
         run: |
-          import os
+          import sys
           import json
           from typing import List
+
+          # Add the plugins directory to the Python path
+          sys.path.append('plugins')
 
           def extract_plugin_info(file_path: str) -> dict:
               plugin_info = {}
