@@ -22,3 +22,10 @@ jobs:
             mv temp.zip main.zip
             cd ..
           done
+
+      - name: Move main.zip to plugins folder
+        run: |
+          cd plugins
+          for d in */ ; do
+            mv "$d/main.zip" .
+          done
