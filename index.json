@@ -7,8 +7,8 @@
   "apps": [
     {
       "name": "Testapp",
-      "description": "Description of App 1",
-      "author": "Author of App 1",
+      "description": "Test to show the app store",
+      "author": "Cloud",
       "path": "/plugins/app1"
     }
   ]
