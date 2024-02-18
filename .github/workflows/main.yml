@@ -1,0 +1,24 @@
+name: Update main.zip in plugins
+
+on:
+  push:
+    paths:
+      - 'plugins/**'
+
+jobs:
+  update-main-zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Zip files (excluding main.zip) and replace main.zip
+        run: |
+          cd plugins
+          for d in */ ; do
+            cd "$d"
+            zip -r temp.zip * -x main.zip
+            mv temp.zip main.zip
+            cd ..
+          done
