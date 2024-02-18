@@ -3,18 +3,18 @@
     "name": "PluginStoreTestRepo",
     "description": "Test repo for the plugin store."
   },
-  "apps": [
+  "plugins": [
     {
-      "name": "app1",
+      "name": "plugin1",
       "description": "Test to show the app store",
       "author": "Cloud",
-      "path": "/plugins/app1"
+      "path": "/plugins/plugin1"
     },
     {
-      "name": "app2",
+      "name": "plugin2",
       "description": "Test to show the app store (2)",
       "author": "Cloud",
-      "path": "/plugins/app2"
+      "path": "/plugins/plugin2"
     }
   ]
 }
