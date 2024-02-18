@@ -26,6 +26,6 @@ jobs:
       - name: Move main.zip to plugins folder
         run: |
           cd plugins
-          for d in */ ; do
-            mv "$d/main.zip" .
-          done
+          git add */main.zip
+          git commit -m "Update main.zip"
+          git push
