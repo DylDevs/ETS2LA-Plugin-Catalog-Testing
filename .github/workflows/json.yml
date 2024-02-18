@@ -24,6 +24,7 @@ jobs:
       - name: Extract Plugin Info and Update JSON
         run: |
           import sys
+          import os
           import json
           from typing import List
 
