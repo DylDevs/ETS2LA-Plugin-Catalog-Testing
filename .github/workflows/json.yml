@@ -1,0 +1,66 @@
+name: Update JSON
+
+on:
+  push:
+    paths:
+      - 'plugins/**' # Trigger only when changes are made in the plugins directory
+
+jobs:
+  update_json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install PyYAML
+
+      - name: Extract Plugin Info and Update JSON
+        run: |
+          import os
+          import json
+          from typing import List
+
+          def extract_plugin_info(file_path: str) -> dict:
+              plugin_info = {}
+              with open(file_path, 'r') as file:
+                  exec(file.read(), {}, plugin_info)
+              return plugin_info.get('PluginInfo', {})
+
+          def update_json(plugin_info_list: List[dict]):
+              json_data = {
+                  "repo": {
+                      "name": "Test repo for ETS2LA",
+                      "description": "Description of that said repo that is being pulled from the server"
+                  },
+                  "apps": []
+              }
+              
+              for plugin_info in plugin_info_list:
+                  app_data = {
+                      "name": plugin_info.get('name', ''),
+                      "description": plugin_info.get('description', ''),
+                      "author": plugin_info.get('author', ''),
+                      "path": "/plugins/{}".format(plugin_info.get('name', '').lower().replace(' ', '_'))
+                  }
+                  json_data['apps'].append(app_data)
+
+              with open('output.json', 'w') as outfile:
+                  json.dump(json_data, outfile, indent=4)
+
+          plugin_info_list = []
+          plugins_dir = 'plugins'
+          for folder in os.listdir(plugins_dir):
+              main_py_path = os.path.join(plugins_dir, folder, 'main.py')
+              if os.path.isfile(main_py_path):
+                  plugin_info = extract_plugin_info(main_py_path)
+                  plugin_info_list.append(plugin_info)
+          
+          update_json(plugin_info_list)
+        shell: python
