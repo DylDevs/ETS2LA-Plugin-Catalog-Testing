@@ -26,6 +26,8 @@ jobs:
       - name: Move main.zip to plugins folder
         run: |
           cd plugins
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
           git add */main.zip
           git commit -m "Update main.zip"
           git push
