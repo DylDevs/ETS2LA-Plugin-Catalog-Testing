@@ -6,28 +6,11 @@
       
   "apps": [
     {
-      "name": "App 1",
+      "name": "Testapp",
       "description": "Description of App 1",
       "author": "Author of App 1",
       "path": "/plugins/app1"
-    },
-    {
-      "name": "App 2",
-      "description": "Description of App 2",
-      "author": "Author of App 2",
-      "path": "/plugins/app2"
-    },
-    {
-      "name": "App 3",
-      "description": "Description of App 3",
-      "author": "Author of App 3",
-      "path": "/plugins/app3"
-    },
-    {
-      "name": "Snake",
-      "description": "It's a snake",
-      "author": "Poggers",
-      "path": "/plugins/snake"
+    }
     }
   ]
 }
