@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "plugin1",
-      "description": "Test to show the app store",
+      "description": "Test to show the app store. This is a very long description to test the UI. I dont know what to say here, but it needs to be long. I guess I will just leave now, Bye.",
       "author": "Cloud",
       "version": "1.0",
       "path": "/plugins/app1"
@@ -24,6 +24,20 @@
       "author": "DylDev",
       "version": "1.2",
       "path": "/plugins/app3"
+    },
+    {
+      "name": "plugin4",
+      "description": "Test to show the app store (4)",
+      "author": "DylDev",
+      "version": "1.2",
+      "path": "/plugins/app4"
+    },
+    {
+      "name": "plugin3",
+      "description": "Test to show the app store (5)",
+      "author": "DylDev",
+      "version": "1.2",
+      "path": "/plugins/app5"
     }
   ]
 }
