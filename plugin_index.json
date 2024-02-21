@@ -33,7 +33,7 @@
       "description": "Test to show the app store (4)",
       "author": "DylDev",
       "version": "1.2",
-      "AppVersionCompatibility": "1.10.22",
+      "AppVersionCompatibility": "0.10.22",
       "path": "/plugins/app4"
     },
     {
