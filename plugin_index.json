@@ -12,7 +12,7 @@
       "path": "/plugins/app1"
     },
     {
-      "name": "This Is A Very Long Plugin Name",
+      "name": "This Is A Very Long Plugin Name. Had to make it even longer for demo",
       "description": "Test to show the app store (2). Another pretty long plugin name, I just want to test this UIto make sure it works well.",
       "author": "Cloud",
       "version": "1.1",
