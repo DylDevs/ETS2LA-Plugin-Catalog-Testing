@@ -12,8 +12,8 @@
       "path": "/plugins/app1"
     },
     {
-      "name": "plugin2",
-      "description": "Test to show the app store (2)",
+      "name": "This Is A Very Long Plugin Name",
+      "description": "Test to show the app store (2). Another pretty long plugin name, I just want to test this UIto make sure it works well.",
       "author": "Cloud",
       "version": "1.1",
       "path": "/plugins/app2"
@@ -34,7 +34,7 @@
     },
     {
       "name": "plugin5",
-      "description": "Test to show the app store (5)",
+      "description": "Test to show the app store (5). You know what, why not throw in one more really long description, I dont care anymore",
       "author": "DylDev",
       "version": "1.2",
       "path": "/plugins/app5"
