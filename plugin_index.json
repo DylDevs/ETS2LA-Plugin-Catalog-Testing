@@ -6,14 +6,14 @@
   "plugins": [
     {
       "name": "plugin1",
-      "description": "Test to show the app store. This is a very long description to test the UI.",
+      "description": "Test to show the app store.",
       "author": "Cloud",
       "version": "1.0",
       "AppVersionCompatibility": "1.10.22",
       "path": "/plugins/app1"
     },
     {
-      "name": "This Is A Very Long Plugin Name. You should press the button",
+      "name": "This Is A Very Long Plugin Name",
       "description": "Test to show the app store (2). Another pretty long plugin name, I just want to test this UIto make sure it works well.",
       "author": "Cloud",
       "version": "1.1",
