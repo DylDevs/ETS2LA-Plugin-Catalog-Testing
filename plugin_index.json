@@ -1,47 +1,81 @@
+// To make an entry for a plugin, follow this structure
+
 {
   "repository": {
+    // Name for the repository
     "name": "PluginStoreTestRepo",
+    // Description for the repository
     "description": "Test repo for the plugin store."
   },
   "plugins": [
     {
+      // Name of the plugin
       "name": "plugin1",
+      // Description of the plugin
       "description": "Test to show the app store.",
+      // Author of the plugin
       "author": "Cloud",
+      // Version of the plugin
       "version": "1.0",
+      // Compatibility of the plugin with the application version
       "AppVersionCompatibility": "1.10.22",
+      // Path to the plugin
       "path": "/plugins/app1"
     },
     {
+      // Name of the plugin
       "name": "This Is A Very Long Plugin Name",
+      // Description of the plugin
       "description": "Test to show the app store (2). Another pretty long plugin name, I just want to test this UIto make sure it works well.",
+      // Author of the plugin
       "author": "Cloud",
+      // Version of the plugin
       "version": "1.1",
+      // Compatibility of the plugin with the application version
       "AppVersionCompatibility": "1.10.10",
+      // Path to the plugin
       "path": "/plugins/app2"
     },
     {
+      // Name of the plugin
       "name": "plugin3",
+      // Description of the plugin
       "description": "Test to show the app store (3)",
+      // Author of the plugin
       "author": "DylDev",
+      // Version of the plugin
       "version": "1.2",
+      // Compatibility of the plugin with the application version
       "AppVersionCompatibility": "1.8.1",
+      // Path to the plugin
       "path": "/plugins/app3"
     },
     {
+      // Name of the plugin
       "name": "plugin4",
+      // Description of the plugin
       "description": "Test to show the app store (4)",
+      // Author of the plugin
       "author": "DylDev",
+      // Version of the plugin
       "version": "1.2",
+      // Compatibility of the plugin with the application version
       "AppVersionCompatibility": "0.10.22",
+      // Path to the plugin
       "path": "/plugins/app4"
     },
     {
+      // Name of the plugin
       "name": "plugin5",
+      // Description of the plugin
       "description": "Test to show the app store (5). You know what, why not throw in one more really long description, I dont care anymore",
+      // Author of the plugin
       "author": "DylDev",
+      // Version of the plugin
       "version": "1.2",
+      // Compatibility of the plugin with the application version
       "AppVersionCompatibility": "1.10.22",
+      // Path to the plugin
       "path": "/plugins/app5"
     }
   ]
