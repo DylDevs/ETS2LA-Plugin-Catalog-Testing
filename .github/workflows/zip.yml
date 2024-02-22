@@ -1,4 +1,4 @@
-name: Update main.zip in plugins
+name: Update plugin.zip in plugins
 
 on:
   push:
@@ -6,28 +6,28 @@ on:
       - 'plugins/**'
 
 jobs:
-  update-main-zip:
+  update-plugin-zip:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Zip files (excluding main.zip) and replace main.zip
+      - name: Zip files (excluding plugin.zip) and replace plugin.zip
         run: |
           cd plugins
           for d in */ ; do
             cd "$d"
-            zip -r temp.zip * -x main.zip
-            mv temp.zip main.zip
+            zip -r temp.zip * -x plugin.zip
+            mv temp.zip plugin.zip
             cd ..
           done
 
-      - name: Move main.zip to plugins folder
+      - name: Move plugin.zip to plugins folder
         run: |
           cd plugins
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
-          git add */main.zip
-          git commit -m "Update main.zip"
+          git add */plugin.zip
+          git commit -m "Update plugin.zip"
           git push

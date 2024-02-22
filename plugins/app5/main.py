@@ -8,7 +8,7 @@ from plugins.plugin import PluginInformation
 from src.logger import print
 
 PluginInfo = PluginInformation(
-    name="plugin1", # This needs to match the folder name under plugins (this would mean plugins\Plugin\main.py)
+    name="Testapp", # This needs to match the folder name under plugins (this would mean plugins\Plugin\main.py)
     # In case the plugin is not the main file (for example plugins\Plugin\Plugin.py) then the name would be "Plugin.Plugin"
     
     description="Example Plugin for showing exaple for app installer",
