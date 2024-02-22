@@ -30,3 +30,15 @@ Automated GitHub Action for Creating main.zip:
     GitHub Actions can automate the process of creating the main.zip file for your plugin.
     A GitHub Action in your repository will automatically create the main.zip file whenever changes are pushed to the repository.
     GitHub will automatically run the workflow whenever changes are made to the repository.
+
+Creating a Pull Request to the Official Repository:
+
+    After you have committed your changes to your forked repository and pushed them to GitHub, you can submit a pull request to merge your changes into the official repository.
+    Go to the official repository URL: PLACEHOLDER.
+    Click on the "Pull requests" tab.
+    Click on the green "New pull request" button.
+    GitHub will prompt you to compare changes.
+    GitHub will automatically detect the changes you made in your fork. Review the changes.
+    Once you're satisfied, click on the "Create pull request" button.
+    Provide a title and description for your pull request, explaining the changes you've made and the purpose of the pull request.
+    Finally, click on "Create pull request" to submit your changes for review by the repository maintainers.
