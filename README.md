@@ -1,8 +1,8 @@
-# Demo Repo For App Store
+# Demo Repository For App Store
 
-## This is the offial repo to make your own fork/repo for the App Store built into ETS2LA
+## This is the official repository to create your own fork/repo for the App Store built into ETS2LA
 
-Here's how you can make a repository of your own:
+### Here's how you can create a repository of your own::
 
 Forking the Repository:
 
