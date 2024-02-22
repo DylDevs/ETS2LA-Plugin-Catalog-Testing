@@ -1,6 +1,6 @@
 # Demo Repository For App Store
 
-## This is the official repository to create your own fork/repo for the App Store built into ETS2LA
+## This is the official repository to create your own fork/repo for the App Store built into [ETS2LA](https://github.com/Tumppi066/Euro-Truck-Simulator-2-Lane-Assist)
 
 ### Here's how you can create a repository of your own::
 
