@@ -11,6 +11,14 @@
       "version": "1.0",
       "AppVersionCompatibility": "1.10.22",
       "path": "/plugins/app1"
+    },
+    {
+      "name": "plugin2",
+      "description": "Test to show the app store.",
+      "author": "Cloud",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.22",
+      "path": "/plugins/app2"
     }
   ]
 }
