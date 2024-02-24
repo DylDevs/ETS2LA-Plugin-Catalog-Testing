@@ -20,7 +20,7 @@
 ### Guide to the plugin_index.json file.
 
 This file is a list of plugins and attributes, they include:
-- **Name** | Name of your plugin
+- **Name** | Name of your plugin (NO SPACES)
 - **Description** | Short description of what your plugin does
 - **Author** | Who made this plugin?
 - **Version** | What is the version? (Every time you change a plugin, you should update its version, this way, the autoupdater works.)
@@ -35,7 +35,8 @@ It also includes information about your repository for the app to display:
 2. Click on the index.json file to open it.
 3. Click on the pencil icon to edit the file.
 4. Update the JSON content with the information about your plugin. Make sure to include the plugin name, description, author, version, compatibility, and path.
-5. After making the necessary changes, scroll down and click on the "Commit changes" button to save your modifications.
+5. Keep in ind that there should be no spaces in the plugin name, use capitalization to show spaces like: ThisIsAPluginName
+6. After making the necessary changes, scroll down and click on the "Commit changes" button to save your modifications.
 
 ### Automated GitHub Action for Creating plugin.zip:
 1. GitHub Actions can automate the process of creating the main.zip file for your plugin.
