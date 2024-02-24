@@ -1,0 +1,16 @@
+{
+  "repository": {
+    "name": "PluginStoreTestRepo",
+    "description": "Test repo for the plugin store."
+  },
+  "plugins": [
+    {
+      "name": "This is a plugin",
+      "description": "Test to show the app store.",
+      "author": "Cloud",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.26",
+      "path": "/plugins/app1"
+    }
+  ]
+}
