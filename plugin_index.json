@@ -1,5 +1,4 @@
 // To make an entry for a plugin, follow this structure
-
 {
   "repository": {
     // Name for the repository
