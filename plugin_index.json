@@ -1,48 +1,104 @@
 {
   "repository": {
-    "name": "PluginStoreTestRepo",
-    "description": "Test repo for the plugin store."
+    "name": "Tumppi066 Plugin Repo",
+    "description": "The official plugins for ETS2LA from Tumppi066.\nNOTE: Most of these plugins are deprecated and won't be updated."
   },
   "plugins": [
     {
-      "name": "plugin1",
-      "description": "Test to show the app store.",
-      "author": "Cloud",
+      "name": "Evdev Controller",
+      "description": "Linux compatible virtual controller device.",
+      "author": "Tumppi066",
       "version": "1.0",
-      "AppVersionCompatibility": "1.10.22",
-      "path": "/plugins/app1"
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/EvdevController"
     },
     {
-      "name": "This Is A Very Long Plugin Name",
-      "description": "Test to show the app store (2). Another pretty long plugin name, I just want to test this UIto make sure it works well.",
-      "author": "Cloud",
-      "version": "1.1",
-      "AppVersionCompatibility": "1.10.10",
-      "path": "/plugins/app2"
+      "name": "External API",
+      "description": "Creates an external API for ETS2LA. This is useful for external applications to interface with the app.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/ExternalAPI"
     },
     {
-      "name": "plugin3",
-      "description": "Test to show the app store (3)",
-      "author": "DylDev",
-      "version": "1.2",
-      "AppVersionCompatibility": "1.8.1",
-      "path": "/plugins/app3"
+      "name": "HUD",
+      "description": "A deprecated HUD plugin. It overlaid information on top of the game, in the place where the screen capture was.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/HUD"
     },
     {
-      "name": "plugin4",
-      "description": "Test to show the app store (4)",
-      "author": "DylDev",
-      "version": "1.2",
-      "AppVersionCompatibility": "0.10.22",
-      "path": "/plugins/app4"
+      "name": "Lane Departure Warning",
+      "description": "Warns the user if the truck is about to leave the lane. Even if the steering is disabled.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/LaneDepartureWarning"
     },
     {
-      "name": "plugin5",
-      "description": "Test to show the app store (5). You know what, why not throw in one more really long description, I dont care anymore",
-      "author": "DylDev",
-      "version": "1.2",
-      "AppVersionCompatibility": "1.10.22",
-      "path": "/plugins/app5"
+      "name": "LSTR Draw Lanes",
+      "description": "Draws the LSTR lanes on the preview. Requires the LSTR lane detection plugin to be enabled.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/LSTRDrawLanes"
+    },
+    {
+      "name": "LSTR Lane Detection",
+      "description": "Detects and tracks lanes on the road with the LSTR model.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/LSTRLaneDetection"
+    },
+    {
+      "name": "Map",
+      "description": "Reads the game map directly, and uses that to drive the truck. Not yet complete, do not use.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/Map"
+    },
+    {
+      "name": "Settings Json Viewer",
+      "description": "A plugin that allows you to view the settings JSON file.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/SettingsJsonViewer"
+    },
+    {
+      "name": "Switch Lane Detection Device",
+      "description": "Will reinstall onnx to either use GPU or CPU on the next startup.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/SwitchLaneDetectionDevice"
+    },
+    {
+      "name": "UFLD Draw Lanes",
+      "description": "Will draw the lanes on the preview. Requires the UFLD lane detection plugin to be enabled.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/UFLDDrawLanes"
+    },
+    {
+      "name": "UFLD Installer",
+      "description": "Will automatically download and install the UFLD lane detection model.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/UFLDInstaller"
+    },
+    {
+      "name": "UFLD Lane Detection",
+      "description": "Will detect and track lanes on the road with the UFLD model.",
+      "author": "Tumppi066",
+      "version": "1.0",
+      "AppVersionCompatibility": "1.10.24",
+      "path": "/plugins/UFLDLaneDetection"
     }
   ]
 }
