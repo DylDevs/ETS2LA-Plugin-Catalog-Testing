@@ -8,6 +8,7 @@
 1. Go to the repository URL: https://github.com/Tumppi066/ETS2LA-Extra-Plugins
 2. Click on the "Fork" button at the top right corner of the page.
 3. Wait for the forking process to complete. This will create a copy of the repository under your GitHub account.
+4. Go to the "Actions" tab and mae sure that they are turned on. This will ensure that zip files can be created automatically.
 
 ### Adding Your Plugin Files:
 1. Once the repository is forked, navigate into your forked repository on GitHub.
