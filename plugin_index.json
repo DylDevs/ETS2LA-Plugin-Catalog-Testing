@@ -9,6 +9,7 @@
       "description": "Test to show the app store.",
       "author": "Cloud",
       "version": "1.0",
+      "tags": ["For Devs", "Expiremental", "LaneDetection", "ScreenCapture"]
       "AppVersionCompatibility": "1.10.26",
       "path": "/plugins/app1"
     }
